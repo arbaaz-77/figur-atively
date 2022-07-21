@@ -1,12 +1,16 @@
+import Directory from "./components/Directory/Directory";
+
 const App = () => {
   const categories = [
     {
       id: 1,
       title: "Superheroes",
+      imageUrl: "images/heroes.jpg",
     },
     {
       id: 2,
       title: "Villains",
+      imageUrl: "images/villains.jpg",
     },
     {
       id: 3,
@@ -15,26 +19,16 @@ const App = () => {
     {
       id: 4,
       title: "DC",
+      imageUrl: "images/DC.svg",
     },
     {
       id: 5,
       title: "Marvel",
+      imageUrl: "images/marvel.svg",
     },
   ];
 
-  return (
-    <div className="categories-container">
-      {categories.map((category) => (
-        <div className="category-container">
-          <div className="background-image" />
-          <div className="category-body-container">
-            <h2>{category.title}</h2>
-            <p>Shop Now</p>
-          </div>
-        </div>
-      ))}
-    </div>
-  );
+  return <Directory categories={categories} />;
 };
 
 export default App;
