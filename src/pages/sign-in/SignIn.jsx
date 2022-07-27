@@ -1,4 +1,4 @@
-import React from "react";
+import SignUp from "../../components/SignUp/SignUp";
 import {
   signInWithGooglePopup,
   createUserDocumentFromAuth,
@@ -6,13 +6,14 @@ import {
 
 const SignIn = () => {
   const logGoogleUser = async () => {
-    const response = await signInWithGooglePopup();
-    createUserDocumentFromAuth(response);
+    const { user } = await signInWithGooglePopup();
+    const userDocRef = await createUserDocumentFromAuth(user);
   };
 
   return (
     <div>
       <button onClick={logGoogleUser}>Sign In with Google Popup</button>
+      <SignUp />
     </div>
   );
 };
