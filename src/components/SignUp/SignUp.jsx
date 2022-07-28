@@ -5,6 +5,7 @@ import {
 } from "../../utils/firebase/firebase.utils";
 import Button from "../Button/Button";
 import FormInput from "../FormInput/FormInput";
+
 import "./SignUp.scss";
 
 const defaultFormFields = {
@@ -30,14 +31,12 @@ const SignUp = () => {
     }
 
     try {
-      const response = await createAuthUserWithEmailAndPassword(
+      const { user } = await createAuthUserWithEmailAndPassword(
         email,
         password
       );
 
-      console.log(response);
-
-      await createUserDocumentFromAuth(response.user, { displayName });
+      await createUserDocumentFromAuth(user, { displayName });
       resetFormData();
     } catch (error) {
       if (error.code === "auth/email-already-in-use") {
@@ -63,7 +62,6 @@ const SignUp = () => {
           label="Display Name"
           type="text"
           name="displayName"
-          id="displayName"
           required
           onChange={handleChange}
           value={displayName}
@@ -73,7 +71,6 @@ const SignUp = () => {
           label="Email"
           type="email"
           name="email"
-          id="email"
           required
           onChange={handleChange}
           value={email}
@@ -83,7 +80,6 @@ const SignUp = () => {
           label="Password"
           type="password"
           name="password"
-          id="password"
           required
           onChange={handleChange}
           value={password}
@@ -93,7 +89,6 @@ const SignUp = () => {
           label="Confirm Password"
           type="password"
           name="confirmPassword"
-          id="confirmPassword"
           required
           onChange={handleChange}
           value={confirmPassword}
