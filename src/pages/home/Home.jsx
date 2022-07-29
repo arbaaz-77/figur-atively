@@ -6,12 +6,12 @@ const Home = () => {
     {
       id: 1,
       title: "Superheroes",
-      imageUrl: "images/heroes.jpg",
+      imageUrl: "images/heroes.png",
     },
     {
       id: 2,
       title: "Villains",
-      imageUrl: "images/villains.jpg",
+      imageUrl: "images/villains.png",
     },
     {
       id: 3,

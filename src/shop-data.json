@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Batman",
+    "image": "/images/batman.png",
+    "price": 2500
+  },
+  {
+    "id": 2,
+    "name": "Antman",
+    "image": "/images/ant.png",
+    "price": 2500
+  },
+  {
+    "id": 3,
+    "name": "Aquaman",
+    "image": "/images/aquaman.png",
+    "price": 2500
+  },
+  {
+    "id": 4,
+    "name": "Deathstroke",
+    "image": "/images/deathstroke.png",
+    "price": 2500
+  },
+  {
+    "id": 5,
+    "name": "The Flash",
+    "image": "/images/flash.png",
+    "price": 2500
+  },
+  {
+    "id": 6,
+    "name": "Hulk",
+    "image": "/images/hulk.png",
+    "price": 2500
+  },
+  {
+    "id": 7,
+    "name": "Ironman",
+    "image": "/images/iron.png",
+    "price": 2500
+  },
+  {
+    "id": 8,
+    "name": "Joker",
+    "image": "/images/joker.png",
+    "price": 2500
+  },
+  {
+    "id": 9,
+    "name": "Loki",
+    "image": "/images/loki.png",
+    "price": 2500
+  },
+  {
+    "id": 10,
+    "name": "Black Manta",
+    "image": "/images/manta.png",
+    "price": 2500
+  },
+  {
+    "id": 11,
+    "name": "Black Panther",
+    "image": "/images/panther.png",
+    "price": 2500
+  },
+  {
+    "id": 12,
+    "name": "Harley Quinn",
+    "image": "/images/quinn.png",
+    "price": 2500
+  },
+  {
+    "id": 13,
+    "name": "The Riddler",
+    "image": "/images/riddler.png",
+    "price": 2500
+  },
+  {
+    "id": 14,
+    "name": "Spiderman",
+    "image": "/images/spider.png",
+    "price": 2500
+  },
+  {
+    "id": 15,
+    "name": "Dr Strange",
+    "image": "/images/strange.png",
+    "price": 2500
+  },
+  {
+    "id": 16,
+    "name": "Superman",
+    "image": "/images/superman.png",
+    "price": 2500
+  },
+  {
+    "id": 17,
+    "name": "Thanos",
+    "image": "/images/thanos.png",
+    "price": 2500
+  },
+  {
+    "id": 18,
+    "name": "Thor",
+    "image": "/images/thor.png",
+    "price": 2500
+  },
+  {
+    "id": 19,
+    "name": "Venom",
+    "image": "/images/venom.png",
+    "price": 2500
+  },
+  {
+    "id": 20,
+    "name": "Wonder Woman",
+    "image": "/images/wonder.png",
+    "price": 2500
+  }
+]

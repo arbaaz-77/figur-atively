@@ -12,7 +12,7 @@ const Navigation = () => {
     <>
       <nav className="navigation">
         <Link className="logo-container" to="/">
-          <img src="/images/crown.svg" alt="" className="logo" />
+          <img src="/images/logo.png" alt="" className="logo" />
         </Link>
 
         <div className="nav-links-container">
