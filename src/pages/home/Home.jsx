@@ -15,8 +15,9 @@ const Home = () => {
     },
     {
       id: 3,
-      title: "Special Offers",
-      imageUrl: "images/sale.svg",
+      title: "All",
+      imageUrl:
+        "https://images.unsplash.com/photo-1608889476518-738c9b1dcb40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
     },
     {
       id: 4,
