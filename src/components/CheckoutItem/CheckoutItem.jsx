@@ -38,7 +38,7 @@ const CheckoutItem = ({ item }) => {
           <span onClick={addItemHandler}>&#10095;</span>
         </Arrow>
       </Quantity>
-      <Span>{price}</Span>
+      <Span>{quantity * price}</Span>
 
       <RemoveButton onClick={clearItemHandler}>&#10005;</RemoveButton>
     </CheckoutItemContainer>

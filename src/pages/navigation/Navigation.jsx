@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import React, { useContext } from "react";
 import { signOutUser } from "../../utils/firebase/firebase.utils";
 
@@ -29,7 +29,7 @@ const Navigation = () => {
 
         <NavLinks>
           <NavLink to="/shop">SHOP</NavLink>
-          <NavLink to="/shop">CONTACT</NavLink>
+          <NavLink to="/contact">CONTACT</NavLink>
           {currentUser ? (
             <NavLink as="span" onClick={signOutUser}>
               SIGN OUT

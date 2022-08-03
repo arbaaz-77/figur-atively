@@ -4,7 +4,7 @@ export const BaseButton = styled.button`
   min-width: 165px;
   width: auto;
   height: 50px;
-  letter-spacing: 0.5px;
+  letter-spacing: 2px;
   line-height: 50px;
   padding: 0 35px 0 35px;
   font-size: 15px;
@@ -12,7 +12,7 @@ export const BaseButton = styled.button`
   color: white;
   text-transform: uppercase;
   font-family: inherit;
-  font-weight: bolder;
+  font-weight: bold;
   border: none;
   cursor: pointer;
   display: flex;
