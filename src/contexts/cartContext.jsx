@@ -12,7 +12,7 @@ const addCartItem = (cartItems, productToAdd) => {
   // if found, increase quantity
   if (existingCartItem) {
     return cartItems.map((item) =>
-      item.id === productToAdd.id
+      item.id === productToAdd.id 
         ? { ...item, quantity: item.quantity + 1 }
         : item
     );

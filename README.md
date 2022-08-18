@@ -8,5 +8,5 @@ https://figuratively.netlify.app/
 E-commerce app to buy action figures
 Built using 
 - ReactJs
-- Context API
+- Redux
 - Google Firestore/Firebase for authentication and shop data
