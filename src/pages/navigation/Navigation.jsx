@@ -25,6 +25,7 @@ const Navigation = () => {
       <NavigationContainer>
         <LogoContainer to="/">
           <Logo src="/images/logo.png" />
+          <h1>Figuratively</h1>
         </LogoContainer>
 
         <NavLinks>

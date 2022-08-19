@@ -42,9 +42,11 @@ export const DirectoryItemContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  border-radius: 20px;
   margin: 0 7.5px 15px;
   overflow: hidden;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   &:hover {
     cursor: pointer;

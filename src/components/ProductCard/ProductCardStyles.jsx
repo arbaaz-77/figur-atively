@@ -7,6 +7,7 @@ export const ProductCardContainer = styled.div`
   height: 350px;
   align-items: center;
   position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
   img {
     width: 100%;
@@ -40,7 +41,7 @@ export const Footer = styled.div`
   width: 100%;
   height: 5%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 24px;
 `;
 
