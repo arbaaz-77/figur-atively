@@ -7,6 +7,7 @@ export const ContactContainer = styled.div`
   align-items: center;
   margin: 50px auto 0;
   padding: 2rem;
+  color: white;
 `;
 
 export const SignUpContainer = styled.div`

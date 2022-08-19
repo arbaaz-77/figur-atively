@@ -12,6 +12,7 @@ export const CartDropDownContainer = styled.div`
   top: 90px;
   right: 40px;
   z-index: 5;
+  color: black;
 
   button {
     margin-top: 1rem;
