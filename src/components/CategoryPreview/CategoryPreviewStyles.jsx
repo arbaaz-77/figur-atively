@@ -11,7 +11,7 @@ export const Title = styled(Link)`
   font-size: 28px;
   margin-bottom: 25px;
   cursor: pointer;
-  color: white;
+  color: #61dafb;
 `;
 
 export const Preview = styled.div`

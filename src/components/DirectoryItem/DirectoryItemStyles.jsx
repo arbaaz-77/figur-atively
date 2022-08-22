@@ -46,7 +46,7 @@ export const DirectoryItemContainer = styled.div`
   border-radius: 20px;
   margin: 0 7.5px 15px;
   overflow: hidden;
-  background-color: white;
+  background-color: #20232a;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   &:hover {

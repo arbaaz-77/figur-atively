@@ -8,11 +8,11 @@ export const CartDropDownContainer = styled.div`
   flex-direction: column;
   padding: 20px;
   border: 1px solid black;
-  background-color: white;
+  background-color: #20232a;
   top: 90px;
   right: 40px;
   z-index: 5;
-  color: black;
+  color: #61dafb;
 
   button {
     margin-top: 1rem;
