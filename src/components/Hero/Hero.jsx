@@ -6,7 +6,7 @@ const Hero = () => {
     <HeroContainer>
       <TextContainer>
         <p>
-          Your one stop shop for all your favorite heroes ( and vilains) action
+          Your one stop shop for all your favorite heroes ( and villains) action
           figures!
         </p>
       </TextContainer>
