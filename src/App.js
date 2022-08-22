@@ -15,6 +15,7 @@ import Authentication from "./pages/authentication/Authentication";
 import Shop from "./pages/shop/Shop";
 import Checkout from "./pages/checkout/Checkout";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -31,15 +32,18 @@ const App = () => {
   }, []);
 
   return (
-    <Routes>
-      <Route path="/" element={<Navigation />}>
-        <Route index element={<Home />} />
-        <Route path="shop/*" element={<Shop />} />
-        <Route path="auth" element={<Authentication />} />
-        <Route path="checkout" element={<Checkout />} />
-        <Route path="contact" element={<Contact />} />
-      </Route>
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<Navigation />}>
+          <Route index element={<Home />} />
+          <Route path="shop/*" element={<Shop />} />
+          <Route path="auth" element={<Authentication />} />
+          <Route path="checkout" element={<Checkout />} />
+          <Route path="contact" element={<Contact />} />
+        </Route>
+      </Routes>
+      <Footer />
+    </>
   );
 };
 
